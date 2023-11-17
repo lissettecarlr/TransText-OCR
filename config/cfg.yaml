@@ -1,0 +1,23 @@
+languageList : ["ch","jp","en"]    
+defaultLanguage : "ch"
+localOcrEnginePath : "./ocr/PaddleOCR-json/PaddleOCR-json.exe"
+
+# 图片相似度阈值
+imgSimilarityScore : 0.95
+textSimilarityScore : 0.95
+
+# 临时文件存放位置
+tempFilesPath : "./temp"
+
+# 连续识别是的间隔时间
+ocrInterval : 1.0
+
+# 翻译器
+translateEngineList : ["baidu","chatgpt"]
+
+##自动检测:auto 中文:zh 英语:en 粤语:yue 文言文:wyw 日语:jp 韩语:kor 繁体中文:cht
+translateTolanguage : "zh"
+translateFromlanguage : "auto"
+
+# OCR输出是否需要根据原图进行换行
+ocrBreakLine : False

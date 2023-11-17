@@ -1,0 +1,26 @@
+{
+  "lockSign": "False",
+  "mode": "once",
+  "play": "OFF",
+  "range": {
+    "X2": 1280,
+    "Y2": 764,
+    "X1": 608,
+    "Y1": 517
+  },
+  "ocrFontColor": "#d93636",
+  "translateFontColor": "#1E90FF",
+  "showColorType": "False",
+  "localOcr": "True",
+  "lastOcrImgPaht": "",
+  "horizontal": 100,
+  "showOriginal": "True",
+  "translate": "True",
+  "speeckAck": "True",
+  "fontSize": 15,
+  "fontType": "\u534e\u5eb7\u65b9\u5706\u4f53W7",
+  "showClipboard": "False",
+  "language": "en",
+  "sign": 1,
+  "translateServer": "baidu"
+}

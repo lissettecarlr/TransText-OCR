@@ -1,0 +1,8 @@
+pyqt5
+qtawesome
+loguru
+pyautogui
+pyyaml
+opencv_python
+numpy
+pyinstaller
