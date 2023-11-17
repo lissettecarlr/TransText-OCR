@@ -19,7 +19,6 @@ ocr识别客户端，可打包，能够离线本地运行，使用paddleocr模�
 * 双击`ocr识别器.exe`运行
 
 
-
 * 一些可能修改的设置被放在了`config/cfg.yaml`中，至于为啥没在运行界面中的设置中，主要是懒，之后再弄进去吧。
     * ocrInterval ：ocr识别间隔，单位为秒，主要电脑性能调节，默认1秒
     * ocrBreakLine : 识别文本是否和原图一样有换行，默认false，即不换行。
@@ -33,12 +32,16 @@ ocr识别客户端，可打包，能够离线本地运行，使用paddleocr模�
     ```base
     pip install -r requirements.txt
     ```
+    或者
+    ```base
+    conda env create -f conda_environment.yaml
+    ```
 * 打包
     ```base
     pyinstaller -F -w -i config/logo.ico -n "ocr识别器" app.py
     ```
 
-* 将下列文件至于exe目录
+* 将下列文件复制到exe目录
 
     ```
     │   ocr识别器.exe

@@ -3,10 +3,10 @@
   "mode": "once",
   "play": "OFF",
   "range": {
-    "X2": 1280,
-    "Y2": 764,
-    "X1": 608,
-    "Y1": 517
+    "X2": 833,
+    "Y2": 508,
+    "X1": 560,
+    "Y1": 436
   },
   "ocrFontColor": "#d93636",
   "translateFontColor": "#1E90FF",
